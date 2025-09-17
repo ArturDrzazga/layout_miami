@@ -1,0 +1,2 @@
+"use strict";var form=document.getElementById("my-form");form&&form.addEventListener("submit",function(o){o.preventDefault();var e=new FormData(form);fetch(form.action,{method:form.method,body:e}).then(function(o){o.ok?console.log("Form sent successfully!"):console.error("An error occurred while sending the form."),form.reset()}).catch(function(o){console.error("Network error:",o)})});
+//# sourceMappingURL=layout_miami.fc28fd0c.js.map
